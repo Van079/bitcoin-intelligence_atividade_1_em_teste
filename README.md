@@ -14,3 +14,16 @@ bitcoin-intelligence/
 │   ├── style.css
 │   └── app.js
 
+
+Fluxo:
+Frontend (HTML/JS)
+        ↓
+Endpoint Flask
+        ↓
+RPC Bitcoin Core
+        ↓
+Processamento Inteligente
+        ↓
+JSON
+        ↓
+Painel Atualizado
