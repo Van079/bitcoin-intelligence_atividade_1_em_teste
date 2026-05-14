@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Snapshot Intelligence</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Bitcoin Snapshot Intelligence</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>🧠 Mempool Intelligence</h2>
+
+            <p>Total TX: <span id="txCount">-</span></p>
+
+            <p>Fee Média:
+                <span id="avgFee">-</span> sat/vB
+            </p>
+
+            <p>Fee Mínima:
+                <span id="minFee">-</span>
+            </p>
+
+            <p>Fee Máxima:
+                <span id="maxFee">-</span>
+            </p>
+
+            <h3>Distribuição</h3>
+
+            <p>Low: <span id="lowTx">-</span></p>
+            <p>Medium: <span id="mediumTx">-</span></p>
+            <p>High: <span id="highTx">-</span></p>
+        </div>
+
+        <div class="card">
+            <h2>⏱ Node Sync Status</h2>
+
+            <p>Blocks:
+                <span id="blocks">-</span>
+            </p>
+
+            <p>Headers:
+                <span id="headers">-</span>
+            </p>
+
+            <p>Lag:
+                <span id="lag">-</span>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
