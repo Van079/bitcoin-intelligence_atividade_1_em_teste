@@ -1,4 +1,4 @@
-# bitcoin-intelligence_atividade_1_rascunho
+# bitcoin-intelligence_atividade_1
 atividade 1 em desenvolvimento para teste
 
 bitcoin-intelligence/
